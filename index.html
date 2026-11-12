@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Simulador de escalonamento de processos desenvolvido em C#, .NET, WPF e XAML.">
+
+    <title>EPC+ - Simulador de Escalonamento de Processos</title>
+
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+
+
+
+    <header class="header">
+
+        <div class="container navbar">
+
+
+
+            <img class="Logo-EPC" src="EPC2.png" alt="Logo EPC#" class="logo">
+
+            <nav class="nav" id="nav">
+
+                <a href="#inicio">Início</a>
+                <a href="#projeto">Projeto</a>
+                <a href="#equipe">Equipe</a>
+                <a href="#tecnologias">Tecnologias</a>
+                <a href="#download">Download</a>
+
+            </nav>
+
+            <button class="menu-button" id="menuButton">
+                ☰
+            </button>
+
+        </div>
+
+    </header>
+
+
+
+    <main>
+
+        <section class="hero" id="inicio">
+
+            <video class="hero-video" autoplay muted loop playsinline>
+                <source src="42665-432087008_medium.mp4" type="video/mp4">
+            </video>
+
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <span class="badge">
+                        C# • .NET • WPF • XAML
+                    </span>
+
+                    <h1>
+                        Simulador de
+                        <span>Escalonamento</span>
+                        de Processos
+                    </h1>
+
+                    <p>
+                        Uma ferramenta desenvolvida para demonstrar
+                        de forma visual e interativa o funcionamento
+                        dos principais algoritmos de escalonamento
+                        de processos.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#projeto" class="button primary">
+                            Conhecer o projeto
+                        </a>
+
+                        <a href="#download" class="button secondary">
+                            Baixar projeto
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-card">
+
+                    <div class="window-top">
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </div>
+
+                    <div class="code">
+
+                        <p>
+                            <span class="purple">Processo</span>
+                            P1;
+                        </p>
+
+                        <p>
+                            <span class="purple">Tempo</span>
+                            = 10;
+                        </p>
+
+                        <p>
+                            <span class="blue">Escalonador</span>
+                            .Executar();
+                        </p>
+
+                        <p class="success">
+                            ✓ Processo executado
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="section" id="projeto">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <span>01 — O PROJETO</span>
+
+                    <h2>
+                        O que é o simulador?
+                    </h2>
+
+                </div>
+
+
+                <div class="project-grid">
+
+                    <div class="project-text">
+
+                        <p>
+                            O Simulador de Escalonamento é uma aplicação
+                            desenvolvida em C# utilizando a plataforma
+                            .NET e a tecnologia WPF para criação da
+                            interface gráfica.
+                        </p>
+
+                        <p>
+                            O objetivo do projeto é facilitar o estudo
+                            dos algoritmos utilizados pelos sistemas
+                            operacionais para determinar a ordem de
+                            execução dos processos.
+                        </p>
+
+                        <p>
+                            Por meio do simulador, o usuário pode inserir
+                            processos e acompanhar visualmente como eles
+                            são organizados e executados.
+                        </p>
+
+                    </div>
+
+
+                    <div class="info-card">
+
+                        <div class="info-icon">
+                            ⚙️
+                        </div>
+
+                        <h3>
+                            Objetivo
+                        </h3>
+
+                        <p>
+                            Tornar o estudo de escalonamento de processos
+                            mais visual, didático e interativo.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+
+        <section class="section dark-section">
+
+            <div class="container">
+
+                <div class="section-title center">
+
+                    <span>02 — FUNCIONAMENTO</span>
+
+                    <h2>
+                        Como funciona?
+                    </h2>
+
+                </div>
+
+
+                <div class="steps">
+
+                    <div class="step">
+
+                        <div class="step-number">
+                            01
+                        </div>
+
+                        <h3>
+                            Inserção
+                        </h3>
+
+                        <p>
+                            O usuário informa os processos,
+                            tempos de execução e demais parâmetros.
+                        </p>
+
+                    </div>
+
+
+                    <div class="step">
+
+                        <div class="step-number">
+                            02
+                        </div>
+
+                        <h3>
+                            Seleção
+                        </h3>
+
+                        <p>
+                            O usuário escolhe o algoritmo de
+                            escalonamento que deseja utilizar.
+                        </p>
+
+                    </div>
+
+
+                    <div class="step">
+
+                        <div class="step-number">
+                            03
+                        </div>
+
+                        <h3>
+                            Simulação
+                        </h3>
+
+                        <p>
+                            O sistema executa o algoritmo e
+                            organiza os processos.
+                        </p>
+
+                    </div>
+
+
+                    <div class="step">
+
+                        <div class="step-number">
+                            04
+                        </div>
+
+                        <h3>
+                            Resultado
+                        </h3>
+
+                        <p>
+                            Os resultados são apresentados
+                            visualmente para análise.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+        <section class="section" id="equipe">
+
+            <div class="container">
+
+                <div class="section-title center">
+
+                    <span>03 — EQUIPE</span>
+
+                    <h2>
+                        Quem desenvolveu o projeto
+                    </h2>
+
+                    <p>
+                        Conheça os 3 integrantes por trás do simulador.
+                    </p>
+
+                </div>
+
+
+                <div class="team">
+
+                    <article class="member">
+
+                        <img class="member-photo" src="guilherme.jpg" alt="Foto do integrante 1">
+
+                        <h3>Guilherme</h3>
+
+                        <span class="member-role">Desenvolvedor Backend</span>
+
+                        <p>
+                            Desenvolvimento da lógica do simulador, implementação dos algoritmos de escalonamento e
+                            integração com a interface gráfica.
+                        </p>
+
+                    </article>
+
+
+                    <article class="member">
+
+                        <img class="member-photo" src="pedro.jpg" alt="Foto do integrante 2">
+
+                        <h3>Pedro</h3>
+
+                        <span class="member-role">Desenvolvedor Frontend</span>
+
+                        <p>
+                            Desenvolvimento da interface gráfica, implementação das funcionalidades visuais, site de
+                            apresentação e experiência do usuário.
+                        </p>
+
+                    </article>
+
+
+                    <article class="member">
+
+                        <img class="member-photo" src="yuri.jpg" alt="Foto do integrante 3">
+
+                        <h3>Yuri</h3>
+
+                        <span class="member-role">Documentador principal</span>
+
+                        <p>
+                            Responsável pela documentação do projeto, elaboração de relatórios, manuais e materiais de
+                            apoio para o uso do simulador.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+
+        <section class="section technology-section" id="tecnologias">
+
+            <div class="container">
+
+                <div class="section-title center">
+
+                    <span>04 — TECNOLOGIAS</span>
+
+                    <h2>
+                        Tecnologias utilizadas
+                    </h2>
+
+                </div>
+
+
+                <div class="technology-grid">
+
+                    <div class="technology-card">
+
+                        <strong><img class="icon" src="C.png"></strong>
+
+                        <p>
+                            Linguagem utilizada para desenvolver
+                            a lógica da aplicação.
+                        </p>
+
+                    </div>
+
+
+                    <div class="technology-card">
+
+                        <strong><img class="icon" src="NET.png"></strong>
+
+                        <p>
+                            Plataforma utilizada para desenvolvimento
+                            da aplicação.
+                        </p>
+
+                    </div>
+
+
+                    <div class="technology-card">
+
+                        <strong><img class="icon" src="WPF.png"></strong>
+
+                        <p>
+                            Framework utilizado para criação
+                            da interface gráfica.
+                        </p>
+
+                    </div>
+
+
+                    <div class="technology-card">
+
+                        <strong><img class="icon" src="XAML.png"></strong>
+
+                        <p>
+                            Linguagem utilizada para estruturar
+                            a interface do aplicativo.
+                        </p>
+
+                    </div>
+
+
+                    <div class="technology-card">
+
+                        <strong><img class="icon" src="VISUALSTUDIO.png"></strong>
+
+                        <p>
+                            Ambiente de desenvolvimento utilizado
+                            na criação do projeto.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+        <section class="section">
+
+            <div class="container">
+
+                <div class="section-title center">
+
+                    <span>05 — INTERFACE</span>
+
+                    <h2>
+                        Conheça o simulador
+                    </h2>
+
+                    <p>
+                        Veja algumas imagens da aplicação em funcionamento.
+                    </p>
+
+                </div>
+
+
+                <div class="screenshots">
+
+                    <div class="screenshot">
+                        <img src="Round_Robin.png" alt="Tela do simulador de escalonamento">
+                    </div>
+
+                    <div class="screenshot">
+                        <img src="SJF.png" alt="Tela do simulador de escalonamento">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+        <section class="download-section" id="download">
+
+            <div class="container download-content">
+
+                <div>
+
+                    <span class="download-label">
+                        PROJETO DISPONÍVEL
+                    </span>
+
+                    <h2>
+                        Quer testar o simulador?
+                    </h2>
+
+                    <p>
+                        Baixe o projeto completo, incluindo o código-fonte,
+                        solução do Visual Studio e documentação.
+                    </p>
+
+                </div>
+
+
+                <a href="escv2.exe" class="button download-button" download>
+
+                    ⬇ Baixar projeto
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div>
+
+                <img class="Logo-EPC-2" src="EPC2.png" alt="Logo EPC#" class="logo">
+
+                <p>
+                    Simulador educacional de escalonamento
+                    de processos.
+                </p>
+
+            </div>
+
+
+
+            <div class="footer-links">
+
+                <a href="#projeto">
+                    Projeto
+                </a>
+
+                <a href="#equipe">
+                    Equipe
+                </a>
+
+                <a href="#tecnologias">
+                    Tecnologias
+                </a>
+
+                <a href="#download">
+                    Download
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="copyright">
+
+            © 2026 — Simulador de Escalonamento
+
+        </div>
+
+    </footer>
+
+
+    <script src="js.js"></script>
+
+</body>
+
+</html>
